@@ -1,0 +1,111 @@
+.content-area{
+   width: 100%;
+   height: 600px;
+   position: relative;
+   z-index: 1;
+}
+.content-image{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0));
+ }
+ 
+.latest-content{
+   max-width: 1500px;
+   margin-top: -300px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+   padding: 20px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+   gap: 20px;
+   position: relative; 
+   z-index: 2;  
+}
+.latest-content2{
+   max-width: 1500px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+   padding: 20px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+   gap: 20px;
+   position: relative; 
+   z-index: 2;  
+}
+.latest-item{
+   background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 5px rgba(0,0,0,0.15);
+}
+.sub-heading{
+   font-size: 21px;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+.sub-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.image-con{
+   width: 100%;
+   height: 170px;
+   display: flex;
+   flex-direction: column;
+}
+.sub-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    aspect-ratio: 1 / 1;
+}
+.image-text{
+   font-size: 13px;
+   margin-top: 5px;
+}
+.sub-heading{
+   font-size: 21px;
+}
+.big-image{
+   height: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.gaming{
+   max-width: 100%;
+   max-height: 100%;
+   object-fit: cover;
+}
+
+
+/* This targets the container for the big single image */
+.latest-item .big-image {
+    height: 100%; /* Stretch to fill the card height */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* This makes the actual image fill the space */
+.latest-item .gaming {
+    width: 100%;
+    height: 100%;
+    min-height: 300px; /* Adjust this to match your other 3x3 items */
+    object-fit: cover; /* This is the secret: it crops the image to fill the box without stretching */
+    display: block;
+}
+
+/* Optional: If you want the image to go edge-to-edge (no white border) */
+/* You can add a special class to those specific items in HTML */
+.latest-item.full-bleed {
+    padding: 20px 0 0 0; /* Keeps padding for title, but removes it for the image */
+}

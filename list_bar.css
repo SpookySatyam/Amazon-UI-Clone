@@ -1,0 +1,129 @@
+.list-bar{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    background-color: #045f1c;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 0.90rem;
+}
+.all-selector{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 5px;
+}
+
+
+.recom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-bottom: 2px solid black;
+    border-top: 1px solid rgb(113, 110, 110);
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.recom-text{
+    align-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.recom-button{
+    margin-top: 0;
+    align-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-color: rgb(251, 230, 4) ;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.recom-button:hover{
+    opacity: 0.8;
+}
+.recom-text2{
+    align-content: center;
+    font-size: 10px;
+
+}
+.start{
+    color: rgb(113, 196, 245);
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.back{
+    height: 49px;
+    width: auto;
+    color: white;
+    font-family: 12px Arial, sans-serif;
+    padding: 10px;
+    background-color: #37475a;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px 20px;
+    align-content: space-between;
+}
+.footer-bottom{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 24px 0;
+    border-top: 1px solid #232f3e;
+    border-top: 0.5px solid #484f58;
+}
+.logo2{
+    display: flex;
+    cursor: pointer;
+    font-size: small;
+    width: 90px;
+    height: 60px;
+    align-items: center;
+}
+.footer-select{
+    padding: 10px 16px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+.footer-lang{
+    background-color: #232f3e;
+    border: none;
+    color: white;
+}
+.footer-copy{
+    padding: 50px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background-color: #131A22;
+}

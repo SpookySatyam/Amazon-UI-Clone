@@ -1,0 +1,91 @@
+.content-option{
+    max-width: 1500px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 20px 5px rgba(0,0,0,0.15);
+    padding: 20px;
+    position: relative;
+    z-index: 3;
+}
+.bs-heading, .tp-heading{
+    margin-left: 20px;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.best-sellers, .top-pick{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: none;
+}
+.bs-image, .tp-image{
+    padding: 15px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+/* last content */
+.last-content{
+    max-width: 1500px;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #e0e0e0;
+    overflow-x: auto;
+}
+.last-heading{
+    font-size: 21px;
+    font-weight: 700;
+    padding: 15px;
+    border-top: 1px solid #b2adad;
+}
+.last-image{
+    width: 100%;
+    margin: 10px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+.li-image{
+    flex: 0 0 180px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.li-image img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.image-text{
+    font-size: 13px;
+    line-height: 1.4;
+    height: 3.2em;
+    color: #007185;
+}
+.image-text2{
+    font-size: 16px;
+    margin: 0;
+}
+.image-text3{
+    font-size: 14px;
+    margin: 0;
+}
+.amazon-choice{
+    font-size: 12px;
+    color: white;
+    padding: 4px;
+    background-color: black;
+    margin: 0;
+    width: fit-content;
+    border-radius: 4px;
+}
